@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/btnDone"
+            android:text="DONE"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/holo_green_dark"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/btnDelete"
+            android:text="DELETE"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:id="@+id/flgAfgan1"
+                android:layout_margin="10dp"
+                android:src="@drawable/flag_afgan"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:id="@+id/flgBd2"
+                android:layout_margin="10dp"
+                android:src="@drawable/flag_bangla"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:id="@+id/flgBhutan3"
+                android:src="@drawable/flag_bhutan"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/flag_india"
+                android:id="@+id/flgIndia4"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/flag_maldives"
+                android:id="@+id/flgMaldives5"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/flag_nepal"
+                android:id="@+id/flgNepal6"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/flag_pak"
+                android:id="@+id/flgPak7"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/flag_srilanka"
+                android:id="@+id/flgSri8"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_gallery"
+                android:id="@+id/country1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_gallery"
+                android:id="@+id/country2"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_gallery"
+                android:id="@+id/country3"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_gallery"
+                android:id="@+id/country4"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_gallery"
+                android:id="@+id/country5"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_gallery"
+                android:id="@+id/country6"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
